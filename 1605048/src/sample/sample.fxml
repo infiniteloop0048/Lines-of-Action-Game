@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="314.0" prefWidth="307.0">
+         <children>
+            <Button layoutX="114.0" layoutY="132.0" mnemonicParsing="false" onAction="#action" text="Hello Wrold" />
+            <Label fx:id="label1" layoutX="114.0" layoutY="172.0" prefHeight="25.0" prefWidth="80.0" />
+            <CheckBox fx:id="first" layoutX="114.0" layoutY="38.0" mnemonicParsing="false" text="firstbox" />
+            <CheckBox fx:id="secnod" layoutX="114.0" layoutY="67.0" mnemonicParsing="false" text="second" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
