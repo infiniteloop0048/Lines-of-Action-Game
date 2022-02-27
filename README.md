@@ -1,3 +1,3 @@
 # Lines-of-Action-Game
 
-This is a two player game. One has to play against computer(AI).
+Project of #Adverserial-Search using AI. A two player board game.
